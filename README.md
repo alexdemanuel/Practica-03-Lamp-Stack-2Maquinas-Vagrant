@@ -89,7 +89,7 @@ debconf-set-selections <<< "mysql-server mysql-server/root_password_again passwo
 ```
 apt-get install -y mysql-server
 ```
-# Esto entra la achivo mysqld.cnf y reemplaza 127.0.0.1 por 0.0.0.0 para que todos se puedan conectar a esta base de datos
+ - Entra en el archivo de configuracion de MYSQL y reemplaza 127.0.0.1 por 0.0.0.0 para que todos se puedan conectar a esta base de datos
 ```
 sed -i -e 's/127.0.0.1/0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf
 /etc/init.d/mysql restart
