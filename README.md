@@ -121,3 +121,4 @@ mysql -u root -p$DB_ROOT_PASSWD < /tmp/iaw-practica-lamp/db/database.sql
 ```
 
 **$DB_ROOT_PASSW es una variable que se utiliza para entrar a MySQL. La variable esta especificada arriba donde se indica cual sera la contraseña del usuario root**
+ <!-- Comentario-->
