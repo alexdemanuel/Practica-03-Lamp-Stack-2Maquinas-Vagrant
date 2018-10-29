@@ -103,7 +103,7 @@ git clone https://github.com/josejuansanchez/iaw-practica-lamp.git
 ```
 - Ejecutar script de la base de datos
 ```
-mysql -u root -p$DB_ROOT_PASSWD < /tmp/iaw-practica-lamp/dbdatabase.sql 
+mysql -u root -p$DB_ROOT_PASSWD < /tmp/iaw-practica-lamp/db/database.sql 
 ```
 
 
